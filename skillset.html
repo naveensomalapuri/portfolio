@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Naveen's Protfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar ">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Somalapuri Naveen</a>
+            <ul class="nav justify-content-end custom_nav">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html"><i class="fa-solid fa-house-chimney"></i>
+                        Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="skillset.html"><i class="fa-solid fa-user"></i> Skillset</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="clearfix body-content"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Column (30% width) -->
+            <div class="col-md-3">
+                <div class="left-section p-3">
+                    <!-- Content for the left column -->
+                    <div class="contact">
+                        <h4 class="fw-bolder">Contact Me</h4>
+                        <address>
+                            <p class="contact-item">
+                                <a href="mailto:somalapurinaveen@gmail.com">
+                                    <i class="fas fa-envelope"></i> somalapurinaveen@gmail.com
+                                </a>
+                            </p>
+                            <p class="contact-item">
+                                <a href="tel:9133554401">
+                                    <i class="fa-solid fa-phone"></i> 9133554401
+                                </a>
+                            </p>
+                            <p class="contact-item">
+                                <a href="https://maps.google.com/maps?q=Saibaba+nagar+Jeedimetla,+Hyderabad,+India"
+                                    target="_blank">
+                                    <i class="fa-solid fa-address-book"></i> Saibaba nagar Jeedimetla,
+                                    Hyderabad,Telangana, India
+                                </a>
+                            </p>
+
+                        </address>
+                        <p class="contact-item icons">
+                            <a href="https://www.linkedin.com/in/naveen-somalapuri" target="_blank">
+                                <i class="fab fa-linkedin fa-xl"></i>
+                            </a>
+                            <a href="https://github.com/naveensomalapuri?tab=repositories" target="_blank">
+                                <i class="fab fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.kaggle.com/naveensomalapuri" target="_blank">
+                                <i class="fab fa-kaggle fa-xl"></i>
+                            </a>
+                        </p>
+
+                    </div>
+                    <div class="resume">
+                        <h4 class="fw-bolder">Resume</h4>
+                        <button id="download-button" type="button" class="btn btn-primary"><i
+                                class="fa-solid fa-download"></i> Download</button>
+
+
+                        <a href="resume.html" type="button" class="btn btn-secondary "><i
+                                class="fa-solid fa-eye"></i> View</a>
+                        <video width="200" height="200" controls>
+                            <source src="assets/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column (70% width) -->
+            <div class="col-md-9">
+                <div class="right-section p-3">
+                    <div class="container">
+                        <h3 class="fw-bolder">My Skillset</h3>
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Programming languages:</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/python.png"></div>
+                                                    <span>Python Programming</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/R.png"></div>
+                                                    <span>R Programming</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Machine Learning:</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/supervised.png"></div>
+                                                    <span>Supervised learning</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/unsupervised.png"></div>
+                                                    <span>Unsupervised learning</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/reinforcement.png"></div>
+                                                    <span>Reinforcement learning</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Deep Learning:</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/neutralnetwork.png"></div>
+                                                    <span>Neural networks</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/conventionalneural.png"></div>
+                                                    <span>Convolutional neural networks</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/recurrent.png"></div>
+                                                    <span>Recurrent neural networks</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Natural Language Processing (NLP):</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/textclassification.png"></div>
+                                                    <span>Text classification</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/namedentityrecoginition.png"></div>
+                                                    <span>Named entity recognition</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/machinetranslation.png"></div>
+                                                    <span>Machine translation</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Data Science Libraries:</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/scikitlearn.png"></div>
+                                                    <span>scikit-learn</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/numpy.png"></div>
+                                                    <span>NumPy</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/pandas.png"></div>
+                                                    <span>Pandas</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/matplotlib.png"></div>
+                                                    <span>Matplotlib</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/seaborn.png"></div>
+                                                    <span>Seaborn</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/keras.png"></div>
+                                                    <span>Keras</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/tensorflow.png"></div>
+                                                    <span>TensorFlow</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/pytorch.png"></div>
+                                                    <span>PyTorch</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Generative Ai tools and LLM models</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/langchain.png"></div>
+                                                    <span>LangChain</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/huggingface.png"></div>
+                                                    <span>HuggingFace</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/llm.png"></div>
+                                                    <span>LLM models</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Database management system:</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/sql.png"></div>
+                                                    <span>SQL</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/mysql.png"></div>
+                                                    <span>MYSQL</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/postgresql.png"></div>
+                                                    <span>PostgreSQL</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/mongodb.png"></div>
+                                                    <span>MongoDB</span>
+                                                </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Web Technologies:</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/html.png"></div>
+                                                    <span>HTML</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/css.png"></div>
+                                                    <span>CSS</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/js.png"></div>
+                                                    <span>Java script</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/reactjs.png"></div>
+                                                    <span>ReactJS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Web Frameworks:</h5>
+                                        <div class="row">
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/flask.jfif"></div>
+                                                    <span>Flask</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3 ">
+                                                <div class="sub-card">
+                                                    <div class="skillicon"><img src="assets/Django.png"></div>
+                                                    <span>Django</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#download-button").click(function () {
+                var pdfUrl = "Resume.pdf";
+                fetch(pdfUrl)
+                    .then(response => response.blob())
+                    .then(blob => {
+                        var url = window.URL.createObjectURL(blob);
+                        var a = document.createElement("a");
+                        a.href = url;
+                        a.download = "resume.pdf";
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                        $(a).remove();
+                    })
+                    .catch(error => {
+                        console.error("Error downloading the file:", error);
+                    });
+            });
+        });
+    </script>
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bbeb8a66ff.js" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <div class="container-fluid">
+        <div class="footer-bottom">
+            &copy; 2023 Somalapuri Naveen. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+</html>

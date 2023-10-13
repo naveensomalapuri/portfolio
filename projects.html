@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Naveen's Protfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar ">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Somalapuri Naveen</a>
+            <ul class="nav justify-content-end custom_nav">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html"><i class="fa-solid fa-house-chimney"></i>
+                        Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="skillset.html"><i class="fa-solid fa-user"></i> Skillset</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="projects.html"><i class="fa-solid fa-diagram-project"></i>
+                        Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="clearfix body-content"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Column (30% width) -->
+            <div class="col-md-3">
+                <div class="left-section p-3">
+                    <!-- Content for the left column -->
+                    <div class="contact">
+                        <h4 class="fw-bolder">Contact Me</h4>
+                        <address>
+                            <p class="contact-item">
+                                <a href="mailto:somalapurinaveen@gmail.com">
+                                    <i class="fas fa-envelope"></i> somalapurinaveen@gmail.com
+                                </a>
+                            </p>
+                            <p class="contact-item">
+                                <a href="tel:9133554401">
+                                    <i class="fa-solid fa-phone"></i> 9133554401
+                                </a>
+                            </p>
+                            <p class="contact-item">
+                                <a href="https://maps.google.com/maps?q=Saibaba+nagar+Jeedimetla,+Hyderabad,+India" target="_blank">
+                                    <i class="fa-solid fa-address-book"></i> Saibaba nagar Jeedimetla, Hyderabad,Telangana, India
+                                </a>
+                            </p>
+                            
+                        </address>
+                        <p class="contact-item icons">
+                            <a href="https://www.linkedin.com/in/naveen-somalapuri" target="_blank">
+                                <i class="fab fa-linkedin fa-xl"></i>
+                            </a>
+                            <a href="https://github.com/naveensomalapuri?tab=repositories" target="_blank">
+                                <i class="fab fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.kaggle.com/naveensomalapuri" target="_blank">
+                                <i class="fab fa-kaggle fa-xl"></i>
+                            </a>
+                        </p>
+                        
+                    </div>
+                    <div class="resume">
+                        <h4 class="fw-bolder">Resume</h4>
+                        <button id="download-button" type="button" class="btn btn-primary"><i
+                                class="fa-solid fa-download"></i> Download</button>
+
+
+                        <a href="resume.html" type="button" class="btn btn-secondary "><i
+                                class="fa-solid fa-eye"></i> View</a>
+                        <video width="200" height="200" controls>
+                            <source src="assets/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column (70% width) -->
+            <div class="col-md-9">
+                <div class="right-section p-3">
+                    <div class="container">
+                        <h3 class="fw-bolder">Projects</h3>
+                        <!-- Start of the first row -->
+                        <div class="row">
+                            <!-- First Card -->
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="status-open">Completed</div>
+                                    <img src="assets/prediction.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Student Prediction Model</h5>
+                                        <p class="card-text">Some quick example text for card ,Some quick example text
+                                            for card.</p>
+                                        <p class="tags">Machine learning</p>
+                                        <p class="tags">Python</p>
+                                        <p class="tags">Machine learning</p>
+                                        <p class="tags">Python</p>
+                                        <div class="clearfix  mb-3"></div>
+                                        <div class=" col-6 mx-auto">
+                                            <a href="https://github.com/naveensomalapuri/MachineLearningProject" class="btn btn-primary ">View more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Second Card -->
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="status-open">On Progress</div>
+                                    <img src="assets/catordog.jfif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cat-Or-Dog-Classification</h5>
+                                        <p class="card-text">Some quick example text for card ,Some quick example text
+                                            for card.</p>
+                                        <p class="tags">Machine learning</p>
+                                        <p class="tags">Python</p>
+                                        <p class="tags">Machine learning</p>
+                                        <p class="tags">Python</p>
+                                        <div class="clearfix  mb-3"></div>
+                                        <div class=" col-6 mx-auto">
+                                            <a href="https://github.com/naveensomalapuri/Cat-Or-Dog-Classification" class="btn btn-primary ">View more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Third Card -->
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="status-open">Completed</div>
+                                    <img src="assets/docuwise.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DocuWise-Generative-AI</h5>
+                                        <p class="card-text">Some quick example text for card ,Some quick example text
+                                            for card.</p>
+                                        <p class="tags">Meta Llama 7b LLM</p>
+                                        <p class="tags">Streamlit</p>
+                                        <p class="tags">LangChain</p>
+                                        <p class="tags">Python</p>
+                                        <div class="clearfix  mb-3"></div>
+                                        <div class=" col-6 mx-auto">
+                                            <a href="https://github.com/naveensomalapuri/DocuWise-Generative-AI-using-Meta-Llama2-7B-LangChain-" class="btn btn-primary ">View more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- End of the first row -->
+                        <div class="row">
+                            <!-- First Card -->
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="status-open">On Progress</div>
+                                    <img src="assets/llm_image.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">English Teacher Using llm</h5>
+                                        <p class="card-text">Some quick example text for card ,Some quick example text
+                                            for card.</p>
+                                        <p class="tags">Machine learning</p>
+                                        <p class="tags">Python</p>
+                                        <p class="tags">Machine learning</p>
+                                        <p class="tags">Python</p>
+                                        <div class="clearfix  mb-3"></div>
+                                        <div class=" col-6 mx-auto">
+                                            <a href="#" class="btn btn-primary ">View more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Second Card -->
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="status-open">On Progress</div>
+                                    <img src="assets/nlpimage.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ethno_Visage-Nationalit_Recognition</h5>
+                                        <p class="card-text">This Model predict the Nationality of person using Facial images</p>
+                                        <p class="tags">CNN</p>
+                                        <p class="tags">Deep Learning</p>
+                                        <p class="tags">Machine learning</p>
+                                        <p class="tags">python</p>
+                                        <div class="clearfix  mb-3"></div>
+                                        <div class=" col-6 mx-auto">
+                                            <a href="#" class="btn btn-primary ">View more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- End of the second row -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#download-button").click(function () {
+                var pdfUrl = "Resume.pdf";
+                fetch(pdfUrl)
+                    .then(response => response.blob())
+                    .then(blob => {
+                        var url = window.URL.createObjectURL(blob);
+                        var a = document.createElement("a");
+                        a.href = url;
+                        a.download = "resume.pdf";
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                        $(a).remove();
+                    })
+                    .catch(error => {
+                        console.error("Error downloading the file:", error);
+                    });
+            });
+        });
+    </script>
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bbeb8a66ff.js" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <div class="container-fluid">
+        <div class="footer-bottom">
+            &copy; 2023 Somalapuri Naveen. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+</html>
